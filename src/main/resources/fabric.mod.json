@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mcaic",
+  "version": "1.0.0",
+  "name": "诺艾儿·柯涅尔的法杖",
+  "description": "来自游戏AliceInCradle",
+  "authors": [
+    "九尾狐白给使者"
+  ],
+  "contact": {
+    "homepage": "https://space.bilibili.com/395237104",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "icon": "assets/mcaic/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.aic.mcaic.McaicMod"
+    ],
+    "client": [
+      "com.aic.mcaic.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "mcaic.mixins.json"
+  ]
+}
