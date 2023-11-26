@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mcaic:mcaictbc",
+    "mcaic:l_ma_roge",
+    "mcaic:l_ma_saga_test",
+    "mcaic:ma_saga_test"
+  ]
+}

@@ -1,7 +1,0 @@
-{
-  "parent": "mcaic:custom/magic_staff.animation",
-  "textures": {
-    "0": "mcaic:blocks/texture",
-    "particle": "mcaic:items/magic_staff"
-  }
-}
